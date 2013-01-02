@@ -1,11 +1,11 @@
 ZoteroScan
 ==========
 
-Google Apps Script to take emailed attachments and generate RIS file suitable for import into Zotero
+Google Apps Script to take emailed attachments and generate RIS file suitable for import into [Zotero](http://www.zotero.org/)
 
 This is script is to be deployed as a webapp with [Google Apps Script](https://developers.google.com/apps-script/). 
 
-Use case: I'm working through a print journal, copying lots of short articles and ads with my phone (I use TurboScan). I want to import them into Zotero.
+Use case: I'm working through a print journal, copying lots of short articles and ads with my phone (I use [TurboScan](https://itunes.apple.com/ca/app/turboscan-quickly-scan-multipage/id342548956?mt=8)). I want to import them into Zotero.
 
 So: I email them to my Gmail account (hosted at my own domain - I haven't worked out yet whether this will work with a consumer gmail account). I enter the metadata in RIS format in the body of the email, and attach the PDF. The subject line contains "ZoteroScan", which triggers GMail to attach a label. Once I've sent a few items, I visit the webapp. It fetches all the labelled emails, uploads their attaachments to a Google Site, and gives me a script which I run on my workstation. That script downloads all the PDFs from the site, and gives me an RIS file which contains links to the downloaded PDFs. I check the RIS file and make any necessary changes, then import it into Zotero. I can then delete the emails and do more scanning.
 
