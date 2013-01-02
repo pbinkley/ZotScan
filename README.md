@@ -1,9 +1,9 @@
 ZoteroScan
 ==========
 
-Google App Script to take emailed attachments and generate RIS file suitable for import into Zotero
+Google Apps Script to take emailed attachments and generate RIS file suitable for import into Zotero
 
-This is script is to be deployed as a webapp on the Google App Platform. 
+This is script is to be deployed as a webapp with [Google Apps Script](https://developers.google.com/apps-script/). 
 
 Use case: I'm working through a print journal, copying lots of short articles and ads with my phone (I use TurboScan). I want to import them into Zotero.
 
