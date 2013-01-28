@@ -1,4 +1,4 @@
-ZoteroScan
+ZotScan
 ==========
 
 Google Apps Script to take emailed attachments and generate RIS file suitable for import into [Zotero](http://www.zotero.org/)
