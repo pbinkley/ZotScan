@@ -11,8 +11,8 @@ So: I email them to my Gmail account (hosted at my own domain - I haven't worked
 
 Installation: 
 
-* go to https://script.google.com and create a project. Copy the two files, myCode.js and myPage.html into it.
-* add several project properties to the script (see the comments in myCode.js). 
+* go to https://script.google.com and create a project. Copy the two files, myCode.gs and myPage.html into it.
+* add several project properties to the script (see the comments in myCode.gs). 
 * save a version and authorize it to access your apps by clicking the "Play" icon
 * publish it as a webapp
 
