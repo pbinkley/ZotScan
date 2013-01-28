@@ -38,4 +38,30 @@ IS -
 KW - LJ1936
 SP -
 EP - 
+ER -
+```
+
+###Output
+
+The output is a shell script that downloads each PDF to the current directory using wget, and generates an RIS file with the item-level RIS from each message, augmented with an L1 link to the local copy of the PDF. It's necessary to link to a local PDF in order to get Zotero to import it, rather than just save the URL of a remote PDF.
+
+```
+# Message 13c27da1c6e5ef3e: ZoteroScan
+wget https://sites.google.com/a/yourgoogleappdomain.com/zoteroscan/ZoteroScan/13c27da1c6e5ef3e_1.pdf
+
+...
+
+TY - JOUR
+AU - 
+TI - Denver Conference
+T2 - Library Journal
+DA - 1935/09/15/
+VL - 60
+IS - 16
+KW - LJ1935
+SP - 706
+EP - 710
+AB - lengthy discussion of federal aid; quotes Lydenberg
+L1 - file:///Users/peterbinkley/Downloads/13c27da1c6e5ef3e_1.pdf
+ER -
 ```
